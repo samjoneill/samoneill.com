@@ -1,0 +1,8 @@
+.DS_Store
+*.log
+
+/web/assets/
+
+/node_modules/
+
+.cachebust
