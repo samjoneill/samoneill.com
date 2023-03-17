@@ -27,8 +27,8 @@
   /**
    * FONT FAMILIES
    */
-  --font-main: -apple-system, 'Helvetica Neue', 'Segoe UI', 'Arial', sans-serif;
-  --font-heading: -apple-system, 'Helvetica Neue', 'Segoe UI', 'Arial', sans-serif;
+  --font-main: 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
+  --font-heading: 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
 
   /**
    * TYPE
