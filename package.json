@@ -26,5 +26,8 @@
     "postcss-nested": "^5.0.3",
     "postcss-preset-env": "^7.7.2",
     "rollup": "^2.79.1"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.0"
   }
 }
