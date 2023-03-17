@@ -2,6 +2,7 @@
 *.log
 
 /web/assets/
+/web/*.html
 
 /node_modules/
 
