@@ -12,8 +12,9 @@
    * EXPLICIT COLOURS
    * Define explicit site colours here (colourful names). Don't use these variables outside of this file.
    */
-  --colour-white: #FFFFFF;
-  --colour-black: #000000;
+  --colour-white: #FDFDFF;
+  --colour-black: #020A17;
+  --colour-blue: #1366E6;
 
   /**
    * IMPLICIT COLOURS
@@ -21,6 +22,7 @@
    */
   --colour-light: var(--colour-white);
   --colour-dark: var(--colour-black);
+  --colour-brand: var(--colour-blue);
 
   /**
    * FONT FAMILIES

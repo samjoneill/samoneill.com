@@ -78,10 +78,13 @@ svg {
 /* Base interactive elements */
 a {
   color: currentcolor;
+  text-decoration-color: var(--colour-brand);
+  text-underline-offset: 0.2ex;
+  transition: text-decoration-color var(--transition-base);
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration-color: inherit;
 }
 
 :focus {

@@ -1,0 +1,12 @@
+
+.header {
+  margin-top: var(--space-l);
+  margin-bottom: var(--space-2xl);
+}
+
+.header__list {
+  align-self: flex-end;
+  column-gap: var(--space-s);
+  display: flex;
+  margin: 0;
+}
