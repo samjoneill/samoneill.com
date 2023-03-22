@@ -33,6 +33,7 @@
     "rollup": "^2.79.1"
   },
   "dependencies": {
-    "@11ty/eleventy": "^2.0.0"
+    "@11ty/eleventy": "^2.0.0",
+    "prismjs": "^1.29.0"
   }
 }

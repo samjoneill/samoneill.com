@@ -1,1 +1,5 @@
-// JavaScript goes here.
+import 'prismjs';
+
+( () => {
+  Prism.highlightAll();
+} )();
