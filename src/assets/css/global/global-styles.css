@@ -21,8 +21,7 @@ main {
 /* Base typesetting */
 h1,
 h2,
-h3,
-h4 {
+h3 {
   font-family: var(--font-heading);
   letter-spacing: var(--tracking-s);
   line-height: 1;
@@ -33,14 +32,10 @@ h1 {
 }
 
 h2 {
-  font-size: var(--step-4);
-}
-
-h3 {
   font-size: var(--step-3);
 }
 
-h4 {
+h3 {
   font-size: var(--step-2);
 }
 
