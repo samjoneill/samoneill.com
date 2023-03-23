@@ -1,5 +1,13 @@
 
 .footer {
+  font-size: var(--step--1);
   margin-top: var(--space-2xl);
   margin-bottom: var(--space-l);
+}
+
+.footer__list {
+  align-self: flex-end;
+  column-gap: var(--space-s);
+  display: flex;
+  margin: 0;
 }
