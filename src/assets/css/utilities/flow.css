@@ -6,3 +6,7 @@
 .flow > * + * {
   margin-top: var(--flow-space, 1em);
 }
+
+.flow > h1 + * {
+  margin-top: var(--space-xl, var(--flow-space));
+}
