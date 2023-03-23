@@ -3,6 +3,7 @@
 
 /web/assets/
 /web/*.html
+/web/**/*.html
 
 /node_modules/
 
