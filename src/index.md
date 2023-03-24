@@ -3,9 +3,9 @@ title: Home
 layout: base.njk
 ---
 
-# Hi, I'm Sam O'Neill.
+# Hello
 
-I am a Brighton-based design engineer currently working at [Clearleft](https://clearleft.com). Welcome to my online home.
+My name is Sam O'Neill. I am a Brighton-based design engineer currently working at [Clearleft](https://clearleft.com). Welcome to my online home.
 
 This website is a work in progress. Hopefully that is obvious. I've wanted a new website for *ages*, but for far too long I've let [perfect get in the way of good](https://en.wikipedia.org/wiki/Perfect_is_the_enemy_of_good).
 
