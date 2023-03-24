@@ -6,7 +6,7 @@ title: Writing
 <h1>Writing</h1>
 
 <ul class="flow" role="list">
-  {% for page in collections.writing %}
+  {% for page in collections.writing | reverse %}
     <li class="repel">
       <p><a href="{{ page.url }}">{{ page.data.title }}</a></p>
       <p>{{ page.date.toLocaleDateString( 'en-gb', { year: "numeric", month: "short", day: "numeric" } ) }}</p>
