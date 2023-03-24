@@ -79,13 +79,14 @@ svg {
 /* Base interactive elements */
 a {
   color: currentcolor;
-  text-decoration-color: var(--colour-brand);
+  text-decoration-color: var(--colour-green);
+  text-decoration-thickness: 0.2ex;
   text-underline-offset: 0.2ex;
-  transition: text-decoration-color var(--transition-base);
+  transition: color var(--transition-base);
 }
 
 a:hover {
-  text-decoration-color: inherit;
+  color: var(--colour-green);
 }
 
 :focus {
@@ -103,6 +104,6 @@ main:focus {
 
 /* Base selection styles that invert whatever colours are rendered */
 ::selection {
-  background: var(--colour-brand);
+  background: var(--colour-green);
   color: var(--colour-light);
 }
