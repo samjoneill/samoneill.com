@@ -4,6 +4,11 @@ layout: base.njk
 
 <h1>{{ title }}</h1>
 
-{{ content | safe }}
+<section class="flow">
+  {{ content | safe }}
+</section>
 
-<p>{{ page.date.toLocaleDateString( 'en-gb', { year: "numeric", month: "long", day: "numeric" } ) }}</p>
+<div class="footnote flow">
+  <p>Got feedback? You can reach me on <a href="https://mas.to/@samoneill">Mastodon</a>.</p>
+  <p><time>{{ page.date.toLocaleDateString( 'en-gb', { year: "numeric", month: "long", day: "numeric" } ) }}</time></p>
+</div>
