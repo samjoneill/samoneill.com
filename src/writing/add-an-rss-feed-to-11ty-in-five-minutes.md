@@ -1,5 +1,6 @@
 ---
 title: Add an RSS feed to your Eleventy website in five minutes
+date: 2023-03-28
 ---
 
 I was having a conversation with my colleague [Jeremy Keith](https://adactio.com)

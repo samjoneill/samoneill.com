@@ -1,5 +1,6 @@
 ---
 title: Hello, internet
+date: 2023-03-24
 ---
 
 I have been using the internet for as long as I remember, and for as long as I
