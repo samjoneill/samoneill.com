@@ -5,11 +5,11 @@ title: Writing
 
 <h1>Writing</h1>
 
-<ul class="flow" role="list">
+<ul class="flow article-list" role="list">
   {% for page in collections.writing | reverse %}
-    <li class="repel">
+    <li>
       <p><a href="{{ page.url }}">{{ page.data.title }}</a></p>
-      <p>{{ page.date.toLocaleDateString( 'en-gb', { year: "numeric", month: "long", day: "numeric" } ) }}</p>
+      <p class="article-list__date">{{ page.date.toLocaleDateString( 'en-gb', { year: "numeric", month: "long", day: "numeric" } ) }}</p>
     </li>
   {%- endfor %}
 </ul>
