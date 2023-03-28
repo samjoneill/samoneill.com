@@ -107,3 +107,9 @@ main:focus {
   background: var(--colour-green);
   color: var(--colour-light);
 }
+
+/* Ensure code snippets are displayed sensibly */
+pre {
+  max-width: inherit;
+  overflow-x: auto;
+}
