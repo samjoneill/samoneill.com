@@ -113,3 +113,9 @@ pre {
   max-width: inherit;
   overflow-x: auto;
 }
+code {
+  background-color: var(--colour-grey);
+  font-family: var(--font-mono);
+  font-size: var(--step--1);
+  padding: 0.125rem 0.25rem;
+}

@@ -11,3 +11,7 @@
 .flow > section + * {
   margin-top: var(--space-xl, var(--flow-space));
 }
+
+.flow > pre {
+  margin-top: var(--flow-space) !important;
+}

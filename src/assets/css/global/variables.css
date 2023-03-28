@@ -12,6 +12,7 @@
    * COLOURS
    */
   --colour-light: #FAFAFA;
+  --colour-grey: #F4F2F0;
   --colour-dark: #020A17;
   --colour-dark--80: #CCCED1;
   --colour-green: #2F8420;
@@ -21,6 +22,7 @@
    */
   --font-main: 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
   --font-heading: 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
 
   /**
    * TYPE
