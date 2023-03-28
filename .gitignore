@@ -4,6 +4,7 @@
 /web/assets/
 /web/*.html
 /web/**/*.html
+/web/**/*.xml
 
 /node_modules/
 
