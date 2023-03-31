@@ -104,7 +104,7 @@ main:focus {
 
 /* Base selection styles that invert whatever colours are rendered */
 ::selection {
-  background: var(--colour-green);
+  background: var(--colour-dark);
   color: var(--colour-light);
 }
 
