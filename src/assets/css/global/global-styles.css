@@ -114,8 +114,6 @@ pre {
   overflow-x: auto;
 }
 code {
-  background-color: var(--colour-grey);
+  color: var(--colour-dark--25);
   font-family: var(--font-mono);
-  font-size: var(--step--1);
-  padding: 0.125rem 0.25rem;
 }
