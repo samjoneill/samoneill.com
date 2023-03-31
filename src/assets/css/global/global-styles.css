@@ -79,14 +79,14 @@ svg {
 /* Base interactive elements */
 a {
   color: currentcolor;
-  text-decoration-color: var(--colour-green);
+  text-decoration-color: var(--colour-accent);
   text-decoration-thickness: 0.2ex;
   text-underline-offset: 0.2ex;
   transition: color var(--transition-base);
 }
 
 a:hover {
-  color: var(--colour-green);
+  color: var(--colour-accent);;
 }
 
 :focus {
@@ -114,6 +114,6 @@ pre {
   overflow-x: auto;
 }
 code {
-  color: var(--colour-dark--25);
+  color: var(--colour-accent);
   font-family: var(--font-mono);
 }

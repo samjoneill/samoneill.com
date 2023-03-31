@@ -3,7 +3,7 @@
   --flow-space: var(--space-l);
 
   li {
-    border-top: 1px solid var(--colour-dark--80);
+    border-top: 1px solid var(--colour-medium);
     display: flex;
     justify-content: space-between;
     padding-top: var(--space-xs);
