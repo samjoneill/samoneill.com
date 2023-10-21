@@ -21,10 +21,12 @@ main {
 /* Base typesetting */
 h1,
 h2,
-h3 {
-  font-weight: 600;
-  letter-spacing: var(--tracking-s);
-  line-height: 1;
+h3,
+h4 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: var(--tracking);
+  line-height: 1.1;
 }
 
 h1 {

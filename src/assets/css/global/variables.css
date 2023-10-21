@@ -19,7 +19,8 @@
   /**
    * FONT FAMILIES
    */
-  --font-main: 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
+  --font-heading: system-ui, Helvetica, Arial, sans-serif;
+  --font-main: system-ui, Helvetica, Arial, sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
 
   /**
