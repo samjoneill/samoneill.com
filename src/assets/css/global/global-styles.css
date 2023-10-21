@@ -90,7 +90,7 @@ a:hover {
   color: var(--colour-accent);
 }
 
-:focus {
+:focus-visible {
   outline: 2px solid;
   outline-offset: 0.3ch;
 }
