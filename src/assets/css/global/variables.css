@@ -12,9 +12,16 @@
    * COLOURS
    */
   --colour-light: #FFFFFF;
-  --colour-medium: #CCD5D7;
-  --colour-dark: #020A17;
-  --colour-accent: #56747B;
+  --colour-medium: #E8E8E8;
+  --colour-dark: #121212;
+  --colour-accent: #0F4BF1;
+
+  @media (prefers-color-scheme: dark) {
+    --colour-light: #1B1B1F;
+    --colour-medium: #333642;
+    --colour-dark: #F9F9FB;
+    --colour-accent: #2B55F3;
+  }
 
   /**
    * FONT FAMILIES
