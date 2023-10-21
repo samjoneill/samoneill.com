@@ -16,6 +16,7 @@ body {
 
 main {
   flex: 1;
+  margin-top: calc( var(--space-2xl) * 2 );
 }
 
 /* Base typesetting */

@@ -16,14 +16,18 @@
 </head>
 <body>
   <header class="header" role="banner">
-    <nav class="container repel">
-      <p>Sam O'Neill</p>
-      <ul class="header__list" role="list">
-        <li><a href="/">Home</a></li>
-        <li><a href="/writing">Writing</a></li>
-      </ul>
-    </nav>
-  </header>
+    <div class="container">
+      <div class="header__inner">
+        <nav class="repel">
+          <p class="header__brand">Sam O'Neill</p>
+          <ul class="header__list" role="list">
+            <li><a href="/">Home</a></li>
+            <li><a href="/writing">Writing</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </div>
   <main>
     <article class="center flow">
       {{ content | safe }}
