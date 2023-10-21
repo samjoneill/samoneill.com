@@ -116,6 +116,5 @@ pre {
   overflow-x: auto;
 }
 code {
-  color: var(--colour-accent);
   font-family: var(--font-mono);
 }
