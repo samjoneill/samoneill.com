@@ -104,12 +104,6 @@ main:focus {
   outline: none;
 }
 
-/* Base selection styles that invert whatever colours are rendered */
-::selection {
-  background: var(--colour-dark);
-  color: var(--colour-light);
-}
-
 /* Ensure code snippets are displayed sensibly */
 pre {
   max-width: inherit;
