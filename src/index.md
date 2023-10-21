@@ -3,12 +3,19 @@ title: Home
 layout: base.njk
 ---
 
-# Hello
+# Welcome
 
-My name is Sam O'Neill. I am a Brighton-based design engineer currently working at [Clearleft](https://clearleft.com). Welcome to my online home.
+Hello, I'm Sam O'Neill. I'm a Brighton-based design engineer working at
+[Clearleft](https://clearleft.com). Since the mid-noughties I've been designing
+and building beautiful, performant and accessible websites for clients across
+all manner of sectors.
 
-This website is a work in progress. Hopefully that is obvious. I've wanted a new website for *ages*, but for far too long I've let [perfect get in the way of good](https://en.wikipedia.org/wiki/Perfect_is_the_enemy_of_good).
+This website is a place for me to (infrequently) [write](/writing) about
+front-end development, technology, or anything else that takes my fancy. It's
+also a place for me to experiment and tinker without any pressure, and as such,
+you might see things changing around here quite often.
 
-I had a ton of ideas, which sounds great, but the reality of that was I never felt I had enough time to make a start. So now I've decided to throw caution to the wind, spend a few hours building an MVP, and iterate upon it in the public domain.
+If you're interested, you can [view the source](https://github.com/samjoneill/samoneill.com)
+for this website on GitHub - feel free to take a peek under the hood.
 
-That's all for now. I'll be adding more soon. In the mean time, I'll direct you to the [repository](https://github.com/samjoneill/samoneill.com) – feel free to take a peek under the hood.
+Thanks for stopping by.
