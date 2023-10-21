@@ -9,7 +9,7 @@
 
 .flow > h1 + *,
 .flow > section + * {
-  margin-top: var(--space-xl, var(--flow-space));
+  margin-top: var(--space-l, var(--flow-space));
 }
 
 .flow > pre {
