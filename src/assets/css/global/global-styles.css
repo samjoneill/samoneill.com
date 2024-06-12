@@ -78,15 +78,15 @@ svg {
 }
 
 /* Base interactive elements */
-a {
-  color: var(--colour-dark);
+a:not([class]) {
+  color: var(--colour-accent);
   text-decoration-thickness: 0.15ex;
   text-underline-offset: 2px;
   transition: color var(--transition-base);
 }
 
 a:hover {
-  color: var(--colour-accent);
+  color: var(--colour-dark);
 }
 
 :focus-visible {
