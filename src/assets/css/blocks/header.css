@@ -1,21 +1,12 @@
 
 .header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.header__inner {
-  backdrop-filter: blur(30px);
-  border-radius: var(--space-xs);
-  box-shadow: 0 1px 5px 0 rgba(0,0,0,.1), 0 0 0 transparent;
   margin-top: var(--space-l);
-  padding-block: var(--space-xs-s);
-  padding-inline: var(--space-s-m);
 }
 
 .header__brand {
+  color: var(--color-dark);
   font-weight: 700;
+  text-decoration: none;
 }
 
 .header__list {
