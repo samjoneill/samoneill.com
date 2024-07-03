@@ -6,7 +6,7 @@ layout: base.njk
 # Welcome
 
 Hello, I'm Sam O'Neill. I'm a Brighton-based design engineer working at
-[Clearleft](https://clearleft.com). Since the mid-noughties I've been designing
+[Clearleft](https://clearleft.com). For the last ten years I've been designing
 and building beautiful, performant and accessible websites for clients across
 all manner of sectors.
 
