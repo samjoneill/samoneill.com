@@ -1,5 +1,6 @@
 ---
 title: A digital declutter
+metaTitle: A digital declutter | Writing
 date: 2024-07-01
 ---
 

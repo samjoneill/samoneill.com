@@ -1,5 +1,6 @@
 ---
 title: CSS Day 2024
+metaTitle: CSS Day 2024 | Writing
 date: 2024-06-12
 ---
 

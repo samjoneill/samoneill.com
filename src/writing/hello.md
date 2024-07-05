@@ -1,5 +1,6 @@
 ---
 title: Hello, internet
+metaTitle: Hello, internet | Writing
 date: 2023-03-24
 ---
 
