@@ -2,9 +2,7 @@
 *.log
 
 /web/assets/
-/web/*.html
-/web/**/*.html
-/web/**/*.xml
+/web/**/*
 
 /node_modules/
 
