@@ -6,6 +6,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(syntaxHighlight);
 
+  // Copy images from /src to /web
+  eleventyConfig.addPassthroughCopy('./src/images/');
+
   return {
     dir: {
       input: "src",
