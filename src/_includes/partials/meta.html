@@ -2,7 +2,7 @@
 
 {% set pageTitle = title + " | Sam O'Neill" %}
 {% set pageDesc = site.summary %}
-{% set pageImage = "" %}
+{% set pageImage = site.url + "/images/opengraph-image.jpg" %}
 
 {% if metaTitle %}
   {% set pageTitle = metaTitle + " | Sam O'Neill" %}
@@ -25,7 +25,7 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="{{ pageTitle }}">
 <meta property="og:description" content="{{ pageDesc }}">
-<meta property="og:image" content="{{ socialImage }}">
+<meta property="og:image" content="{{ pageImage }}">
 <meta property="og:image:alt" content="Page image for {{ site.name }}" />
 
 <meta name="twitter:card" content="summary_large_image">
@@ -33,5 +33,5 @@
 <meta property="twitter:url" content="{{ currentUrl }}">
 <meta name="twitter:title" content="{{ pageTitle }}">
 <meta name="twitter:description" content="{{ pageDesc }}">
-<meta name="twitter:image" content="{{ socialImage }}">
+<meta name="twitter:image" content="{{ pageImage }}">
 <meta name="twitter:image:alt" content="Page image for {{ site.name }}" />
