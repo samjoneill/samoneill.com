@@ -1,4 +1,4 @@
 {
-  "layout": "writing.njk",
+  "layout": "layouts/writing.njk",
   "tags": "writing"
 }

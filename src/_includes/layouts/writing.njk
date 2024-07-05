@@ -1,0 +1,16 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+  <article class="center flow">
+    <h1>{{ title }}</h1>
+
+    <section class="flow">
+      {{ content | safe }}
+    </section>
+
+    <div class="footnote flow">
+      <p>Got feedback? You can reach me on <a href="https://front-end.social/@samoneill">Mastodon</a>.</p>
+      <p><time>{{ page.date.toLocaleDateString( 'en-gb', { year: "numeric", month: "long", day: "numeric" } ) }}</time></p>
+    </div>
+  </article>
+{% endblock %}

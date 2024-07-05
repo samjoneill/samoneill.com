@@ -10,26 +10,13 @@
       type="application/atom+xml"
       title="Sam O'Neill's Blog" />
   <meta name="referrer" content="no-referrer-when-downgrade" />
-  <meta name="description" content="Welcome to the online home of Sam O'Neill, a Brighton-based design engineer.">
-  <title>{{ title }} | Sam O'Neill</title>
+  {% include "partials/meta.html" %}
   <link rel="stylesheet" href="/assets/css/global.css">
 </head>
 <body>
-  <header class="header" role="banner">
-    <div class="container">
-      <nav class="repel">
-        <a class="header__brand" href="/">Sam O'Neill</a>
-        <ul class="header__list" role="list">
-          <li><a href="/">Home</a></li>
-          <li><a href="/writing">Writing</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <main>
-    <article class="center flow">
-      {{ content | safe }}
-    </article>
+  {% include "partials/header.html" %}
+  <main id="main-content">
+    {% block content %}{% endblock %}
   </main>
   <footer role="contentinfo" class="footer">
     <div class="container grid repel">

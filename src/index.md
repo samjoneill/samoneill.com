@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: base.njk
+layout: layouts/home.njk
 ---
 
 # Welcome

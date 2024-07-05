@@ -1,9 +1,10 @@
 ---
-layout: base.njk
 title: Writing
+layout: layouts/home.njk
 ---
 
-<h1>Writing</h1>
+<article class="center flow">
+<h1>{{ title }}</h1>
 
 <ul class="flow article-list" role="list">
   {% for page in collections.writing | reverse %}
@@ -13,3 +14,4 @@ title: Writing
     </li>
   {%- endfor %}
 </ul>
+</article>
