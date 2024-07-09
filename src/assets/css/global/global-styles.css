@@ -4,8 +4,8 @@
  */
 
 body {
-  background: var(--colour-light);
-  color: var(--colour-dark);
+  background: var(--colour-background);
+  color: var(--colour-base);
   display: flex;
   flex-direction: column;
   font-family: var(--font-main);
@@ -23,6 +23,7 @@ h1,
 h2,
 h3,
 h4 {
+  color: var(--colour-heading);
   font-family: var(--font-heading);
   font-weight: 500;
   line-height: 1.1;
@@ -80,14 +81,15 @@ svg {
 
 /* Base interactive elements */
 a:not([class]) {
-  color: var(--colour-accent);
-  text-decoration-thickness: 0.15ex;
+  color: var(--colour-link);
+  text-decoration-color: var(--colour-link-underline);
+  text-decoration-thickness: 1px;
   text-underline-offset: 2px;
   transition: color var(--transition-base);
 }
 
-a:hover {
-  color: var(--colour-dark);
+a:not([class]):hover {
+  text-decoration-color: var(--colour-link-underline-hover);
 }
 
 :focus-visible {

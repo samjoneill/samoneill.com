@@ -11,16 +11,22 @@
   /**
    * COLOURS
    */
-  --colour-light: #FFFFFF;
-  --colour-medium: #E8E8E8;
-  --colour-dark: #121212;
-  --colour-accent: #0F4BF1;
+  --colour-base: #5C5962;
+  --colour-heading: #27262B;
+  --colour-background: #FFFFFF;
+  --colour-border: #E8E8E8;
+  --colour-link: #3B6CF4;
+  --colour-link-underline: #EBF0FE; /* Tint 90 */
+  --colour-link-underline-hover: #7698F7; /* Tint 30 */
 
   @media (prefers-color-scheme: dark) {
-    --colour-light: #1B1B1F;
-    --colour-medium: #333642;
-    --colour-dark: #F9F9FB;
-    --colour-accent: #E15638;
+    --colour-base: #F9F9FB;
+    --colour-heading: #FFFFFF;
+    --colour-background: #1B1B1F;
+    --colour-border: #333642;
+    --colour-link: #507CF5;
+    --colour-link-underline: #344676; /* Shade 60 */
+    --colour-link-underline-hover: #4261B6; /* Shade 30 */
   }
 
   /**

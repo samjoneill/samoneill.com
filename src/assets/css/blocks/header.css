@@ -4,7 +4,7 @@
 }
 
 .header__brand {
-  color: var(--color-dark);
+  color: var(--colour-heading);
   font-weight: 700;
   text-decoration: none;
 }

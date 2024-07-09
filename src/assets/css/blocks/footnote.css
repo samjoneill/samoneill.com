@@ -1,5 +1,5 @@
 
 .footnote {
-  border-top: 1px solid var(--colour-medium);
+  border-top: 1px solid var(--colour-border);
   padding-top: var(--space-m);
 }
