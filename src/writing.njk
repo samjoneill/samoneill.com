@@ -1,15 +1,20 @@
 ---
 title: Writing
-layout: layouts/home.njk
 ---
 
-<h1>{{ title }}</h1>
+{% extends "layouts/base.njk" %}
 
-<ul class="flow article-list" role="list">
-  {% for page in collections.writing | reverse %}
-    <li>
-      <p><a href="{{ page.url }}">{{ page.data.title }}</a></p>
-      <p class="article-list__date">{{ page.date.toLocaleDateString( 'en-gb', { year: "numeric", month: "long", day: "numeric" } ) }}</p>
-    </li>
-  {%- endfor %}
-</ul>
+{% block content %}
+  <article class="container flow">
+    <h1>{{ title }}</h1>
+
+    <ul class="flow article-list" role="list">
+      {% for page in collections.writing | reverse %}
+        <li>
+          <p><a href="{{ page.url }}">{{ page.data.title }}</a></p>
+          <p class="article-list__date">{{ page.date.toLocaleDateString( 'en-gb', { year: "numeric", month: "long", day: "numeric" } ) }}</p>
+        </li>
+      {%- endfor %}
+    </ul>
+  </article>
+{% endblock %}
