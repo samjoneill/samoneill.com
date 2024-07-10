@@ -1,0 +1,9 @@
+.skip-to-content {
+  position: absolute;
+  padding: var(--space-2xs) var(--space-xs);
+  transform: translateY(0);
+}
+
+.skip-to-content:not(:focus) {
+  transform: translateY(-100%);
+}
