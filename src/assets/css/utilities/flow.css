@@ -3,15 +3,19 @@
  * Info: https://piccalil.li/quick-tip/flow-utility/
  */
 
+:root {
+	--flow-space: var(--space-s);
+}
+
 .flow > * + * {
-  margin-top: var(--flow-space, 1em);
+	margin-top: var(--flow-space, 1em);
 }
 
 .flow > h1 + *,
 .flow > section + * {
-  margin-top: var(--space-l, var(--flow-space));
+	margin-top: var(--space-l, var(--flow-space));
 }
 
 .flow > pre {
-  margin-top: var(--flow-space) !important;
+	margin-top: var(--flow-space) !important;
 }
