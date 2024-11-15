@@ -109,7 +109,7 @@ cd ~/Sites
 valet park
 ```
 
-I also want a way of running a background instance of MySQL. I do this using [DBNgin](https://dbngin.com/).
+I also want a way of running a background instance of MySQL. I do this using [DBngin](https://dbngin.com/).
 
 ```sh
 brew install --cask dbngin
@@ -141,7 +141,7 @@ Perhaps at some point, I'll go into how I've set up VS Code to make life easier 
 brew install visual-studio-code
 ```
 
-I've used [Tower](https://www.git-tower.com/mac) at my Git client for my whole career, and couldn't be without it.
+I've used [Tower](https://www.git-tower.com/mac) as my Git client for my whole career, and couldn't be without it.
 
 ```sh
 brew install tower
