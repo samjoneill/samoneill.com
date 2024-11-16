@@ -44,7 +44,7 @@ After installing, sign in to 1Password and connect the 1Password CLI with the 1P
 Once I’ve got my logins to hand, I’ll install my browser of choice: [Firefox Developer Edition](https://www.mozilla.org/en-GB/firefox/developer/).
 
 ```sh
-brew install --cask firefox-developer-edition
+brew install --cask firefox@developer-edition
 ```
 
 Which I’ll then open and sign in to, so all of my extensions and bookmarks are downloaded.
